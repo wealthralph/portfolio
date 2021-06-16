@@ -1,9 +1,17 @@
+import Header from './Components/Header';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
 
 function App() {
   return (
-    <div className="App">
-      Portfolio
-    </div>
+      <Router>
+      <Header/>
+      <Switch>
+        <Route path='/' />
+      </Switch>
+      </Router>
+    
+    
   );
 }
 
