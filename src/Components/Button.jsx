@@ -1,6 +1,5 @@
 import React from 'react';
-import '../Saas/Button.css';
-
+import './Saas/Button.css'
 const STYLES = ['btn--primary', 'btn--outline']
 
 const SIZE = ['btn--medium' , 'btn--large', 'btn--mobile']

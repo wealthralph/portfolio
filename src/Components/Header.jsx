@@ -1,27 +1,26 @@
-import React, {useState} from 'react'
-import {Link} from 'react-router-dom';
-import {FaBars, FaTimes } from 'react-icons/fa'
+import React, {useState, Fragment} from 'react'
+import { Navbar, Dropdown, Nav } from 'rsuite';
 
-const Header = () => {
 
-    const [click, setClick] = useState(false)
-
-    const handleClick =() => setClick(!click)
-
-    return (
-        <div className='header'>
-            <div className="header-container">
-                <Link className="header-logo">
-                    Ralph Portfolio
-                </Link>
-
-                <div className="menu-icon" onClick={handleClick}>
-                    {click ? <FaTimes/> : <FaBars/>}
-                </div>
-                
-            </div>
-        </div>
-    )
-}
+const Header = (
+    <Navbar>
+      <Navbar.Header>
+        <a href="/" className="navbar-brand logo">RSUITE</a>
+      </Navbar.Header>
+      <Navbar.Body>
+        <Nav>
+          <Nav.Item >Home</Nav.Item>
+          <Nav.Item>News</Nav.Item>
+          <Nav.Item>Products</Nav.Item>
+          <Dropdown title="About">
+            <Dropdown.Item>Company</Dropdown.Item>
+            <Dropdown.Item>Team</Dropdown.Item>
+            <Dropdown.Item>Contact</Dropdown.Item>
+          </Dropdown>
+        </Nav>
+        
+      </Navbar.Body>
+    </Navbar>
+  );
 
 export default Header ;
