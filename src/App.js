@@ -1,13 +1,16 @@
-import Header from './Components/Header';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import Navbar from './Components/Header';
 
 
 function App() {
   return (
       <Router>
-      <Header/>
+      <Navbar/>
       <Switch>
-        <Route path='/' />
+        <Route path='/'  />
+        <Route path='/Porject'  />
+        <Route path='/Thoughts'  />
+        <Route path='/Contact Us'  />
       </Switch>
       </Router>
     

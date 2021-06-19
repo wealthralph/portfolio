@@ -1,26 +1,25 @@
-import React, {useState, Fragment} from 'react'
-import { Navbar, Dropdown, Nav } from 'rsuite';
-
-
-const Header = (
-    <Navbar>
-      <Navbar.Header>
-        <a href="/" className="navbar-brand logo">RSUITE</a>
-      </Navbar.Header>
-      <Navbar.Body>
-        <Nav>
-          <Nav.Item >Home</Nav.Item>
-          <Nav.Item>News</Nav.Item>
-          <Nav.Item>Products</Nav.Item>
-          <Dropdown title="About">
-            <Dropdown.Item>Company</Dropdown.Item>
-            <Dropdown.Item>Team</Dropdown.Item>
-            <Dropdown.Item>Contact</Dropdown.Item>
-          </Dropdown>
-        </Nav>
-        
-      </Navbar.Body>
-    </Navbar>
+import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
+import Menu from './Menu'
+const Navbar = () => {
+  return (
+    <Fragment>
+      <div className='container'>
+        <div className='wrapper'>
+          <div className='inner--header'>
+            <div className='logo'>
+              <Link to='/'> Ralph Portforlio </Link>
+            </div>
+            <div className="menu">
+                <button>Menu</button>
+            </div>
+          </div>
+          .
+        </div>
+        <Menu></Menu>
+      </div>
+    </Fragment>
   );
+};
 
-export default Header ;
+export default Navbar;
