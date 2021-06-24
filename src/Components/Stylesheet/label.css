@@ -1,0 +1,29 @@
+:lb-color{
+    --lb-bg-p : #29BF38 ;
+    --lb-txt-p: #0E2622 ;
+    --lb-bg-s: orange   ;
+} 
+
+.label{
+    padding: 5px 15px;
+    outline: none;
+    border:none;
+
+}
+
+.label-primary {
+    background-color: var(--lb-bg-p) ;
+    color: var(--lb-txt-p);
+
+}
+
+.label-sec {
+    background-color: var(--lb-bg-s) ;
+    color: var(--lb-txt-p);
+
+}
+
+.label-primary, .label-sec :hover {
+    transition: all;
+}
+

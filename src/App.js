@@ -1,5 +1,8 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Navbar from './Components/Header';
+import Navbar from './Components/Navbar';
+import Home from './Components/Pages/Home'
+
+
 
 
 function App() {
@@ -7,10 +10,8 @@ function App() {
       <Router>
       <Navbar/>
       <Switch>
-        <Route path='/'  />
-        <Route path='/Porject'  />
-        <Route path='/Thoughts'  />
-        <Route path='/Contact Us'  />
+        <Route path='/' exact component={Home} />
+        
       </Switch>
       </Router>
     

@@ -1,12 +1,13 @@
 import React from 'react';
-import './Saas/Button.css'
+import './Button.css'
+
 const STYLES = ['btn--primary', 'btn--outline']
 
 const SIZE = ['btn--medium' , 'btn--large', 'btn--mobile']
 
 const COLOR = ['priamry', 'green', 'accent']
 
-const Button = ({
+export const Button = ({
     children,
     type,
     onClick,
@@ -26,4 +27,3 @@ const Button = ({
     )
 }
 
-export default Button;
