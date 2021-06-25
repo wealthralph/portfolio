@@ -1,29 +1,38 @@
-:lb-color{
-    --lb-bg-p : #29BF38 ;
-    --lb-txt-p: #0E2622 ;
-    --lb-bg-s: orange   ;
-} 
-
-.label{
-    padding: 5px 15px;
-    outline: none;
-    border:none;
-
+*{
+    box-sizing: border-box;
 }
 
-.label-primary {
-    background-color: var(--lb-bg-p) ;
-    color: var(--lb-txt-p);
-
+.container-card {
+  background-color: #1b4039;
+  padding:15px 0px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 80vh;
 }
 
-.label-sec {
-    background-color: var(--lb-bg-s) ;
-    color: var(--lb-txt-p);
-
+.gif {
+    margin-right: 50px;
+    margin-left: 20px;
 }
 
-.label-primary, .label-sec :hover {
-    transition: all;
+.text-box {
+    margin-right: 10px ;
+    flex-direction: column;
 }
 
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+p{
+    color:white;
+    
+}
+
+.container-card:hover {
+    transform: translateY(5px);
+}

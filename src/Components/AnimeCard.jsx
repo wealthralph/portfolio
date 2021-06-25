@@ -1,4 +1,5 @@
 import React from 'react';
+import './Stylesheet/label.css'
 
 const CardItems = [
   {
@@ -25,14 +26,14 @@ const AnimeCard = () => {
   return (
     <>
       {CardItems.map((items) => (
-        <div className=' flex bg-green-600 rounded-xl p-4 md:p-0 my-6 w-90 '>
+        <div className=' container-card '>
 
-            <div className= 'px-5 '>
+            <div className= 'gif '>
             <img src={items.gif} alt='gif' />
           </div>
-          <div>
-            <h3 className='text-lg font-bold' key={items.id}> {items.title}</h3>
-            <p  className='max-w-prose' key={items.id}> {items.des} </p>
+          <div className='text-box'>
+            <h3 key={items.id}> {items.title}</h3>
+            <p   key={items.id}> {items.des} </p>
           </div>
 
           

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Stylesheet/label.css'
-import './Stylesheet/label.css'
 
 
 const Label = (props) => {
