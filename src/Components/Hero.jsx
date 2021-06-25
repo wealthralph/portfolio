@@ -3,7 +3,7 @@ import AnimeCard from './AnimeCard'
 import Title from './Title';
 import Label  from './Label';
 import './Stylesheet/Hero.css'
-
+import {heroObjOne, } from './Data'
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
           <div className=' box'>
               <div className="content">
               <Label title='Full Stack Dev ' className='' ></Label>
-              <Title> Building Digital Experiences For Mordern Web   </Title>
+              <Title {...heroObjOne} >   </Title>
               </div>
               
           </div>

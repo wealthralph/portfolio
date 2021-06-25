@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #0e2622;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section-cont {
+  background-color: var(--primary-color);
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-box {
+    background-color:#EDEEF0;
+    max-width:80%;
+    height: 200px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.section-title{
+    margin:auto;
+    padding: 70px;
+}
