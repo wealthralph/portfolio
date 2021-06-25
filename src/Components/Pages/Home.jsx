@@ -1,12 +1,14 @@
 import React from 'react'
-import {heroObjOne} from '../Data'
 import Hero from '../Hero'
+import SectionOne from '../SectionOne'
+
 
 
 const Home = () => {
  return (
         <> 
-        <Hero {...heroObjOne} />
+        <Hero />
+        <SectionOne />
         </>
     )
 }

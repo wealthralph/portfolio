@@ -45,3 +45,13 @@ p{
     line-height:1.1 ;
     font-weight: 800;
 }
+
+.hero-des {
+    color: white;
+    max-width:auto;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+
+/* media queries */
