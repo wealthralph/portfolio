@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #0E2622;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.Hero-container {
+    background-color: var(--primary-color);
+    padding: 70px;
+
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
