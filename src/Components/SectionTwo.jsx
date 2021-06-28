@@ -11,7 +11,13 @@ const SectionTwo = () => {
                 <div className="sectionTwo-box">
                     <div className="title-box">
                         <Label title = 'Full Stack Dev' ></Label>
-                        <Title {...heroObjThree} ></Title>
+                        <Title {...heroObjThree} title='hero-dark' desc='des-dark' ></Title>
+                    </div>
+
+                    <div className="boxes">
+                        <div className="box">
+                            
+                        </div>
                     </div>
                 </div>
                 

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Stylesheet/label.css'
 
-const Title = ({description, headline}) => {
+const Title = ({description, headline, }) => {
     return (
         <div>
             <h1 className='hero-heading'> {headline} </h1>

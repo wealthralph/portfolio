@@ -5,4 +5,6 @@
 .sectionTwo-cont {
     height: 100vh;
     background-color:var(--sectionTwo-primary);
+    padding: 70px;
 }
+
