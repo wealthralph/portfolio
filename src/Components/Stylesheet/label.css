@@ -25,7 +25,7 @@
 h3{
     font-size: 20px;
     font-weight: 500;
-    color: white;
+    color: rgb(24, 21, 21);
 }
 
 p{
@@ -43,7 +43,7 @@ p{
     color: white;
     font-size: 50px;
     line-height:1.1 ;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .hero-des {
@@ -55,3 +55,8 @@ p{
 
 
 /* media queries */
+@media (max-width: 700px) {
+    .hero-heading {
+font-size: 35px;
+    }
+}

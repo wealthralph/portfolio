@@ -10,15 +10,14 @@ const Hero = () => {
     <>
       <div className="Hero-container ">
           <div className='content-box '>
-          <div className=' box'>
-              <div className="content">
+              <div className="content-text">
               <Label title='Full Stack Dev ' className='' ></Label>
               <Title {...heroObjOne} >   </Title>
               </div>
               
-          </div>
           
-          <div className=" ">
+          
+          <div className="content-gif ">
             <AnimeCard></AnimeCard>
           </div>
           </div>
