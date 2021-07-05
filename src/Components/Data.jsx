@@ -23,7 +23,7 @@ export const heroObjTwo = {
 }
 
 export const heroObjThree = {
-    headline: `The map is not the territory`,
+    headline: `CONCEPT . DESIGN . BUILD`,
     description: `I am a full-stack web developer. I write in 
     JavaScript primarily, and Python, secondarily. 
     React is my frontend library of choice, and I 
